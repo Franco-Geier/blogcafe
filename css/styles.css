@@ -224,10 +224,13 @@ img {
 
 /* Contacto */
 .contacto-bg {
-    background-image: url(../img/contacto.jpg);
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: image-set(
+        url(../img/contacto.webp) 1x,
+        url(../img/contacto.jpg) 1x
+    );
 }
 .formulario {
     background-color: var(--blanco);
